@@ -39,4 +39,4 @@ Thumbs.db
 *.gguf
 .cog/
 
-meta-llama-3.1-8b-instruct-abliterated.Q2_K.gguf
+meta-llama-3.1-8b-instruct-abliterated.Q8_0.gguf
