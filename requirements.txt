@@ -1,0 +1,7 @@
+--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+--prefer-binary
+cog==0.14.7
+accelerate==0.30.0
+torch==2.1.0
+torchvision
+transformers==4.40.2
