@@ -16,7 +16,7 @@ class Predictor(BasePredictor):
 
         self.llm = Llama(
             model_path=model_path,
-            n_ctx=2048,
+            n_ctx=8192,
             n_threads=8,
             n_gpu_layers=35,
             verbose=False
@@ -31,7 +31,7 @@ class Predictor(BasePredictor):
         try:
             output = self.llm(
                 prompt=prompt,
-                max_tokens=256,
+                max_tokens=2048,
                 temperature=0.7,
                 top_p=0.9,
                 seed=seed,
