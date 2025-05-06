@@ -35,6 +35,7 @@ class Predictor(BasePredictor):
                 temperature=0.7,
                 top_p=0.9,
                 seed=seed,
+                stop=["<|eot_id|>"],
                 echo=False
             )
             return output["choices"][0]["text"]
