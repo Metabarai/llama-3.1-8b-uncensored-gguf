@@ -2,4 +2,4 @@ __pycache__
 *.pyc
 # Ignore all .gguf files except our specific model
 *.gguf
-!meta-llama-3.1-8b-instruct-abliterated.Q2_K.gguf
+!meta-llama-3.1-8b-instruct-abliterated.Q8_0.gguf
